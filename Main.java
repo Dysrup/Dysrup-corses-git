@@ -16,7 +16,7 @@ public class Main {
   private static ArvoreBMais_ChaveComposta_Int_Int arvB_VotoPergunta;
   private static ArvoreBMais_ChaveComposta_Int_Int arvB_VotoResposta;
 
-  private static ListaInvertida indInver;
+  public static ListaInvertida indInver;
 
   public static int usuarioAtual;
   public static int perguntaAtual;
