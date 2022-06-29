@@ -164,7 +164,7 @@ public class Main {
         System.out.println("\nFechando sistema...");
         break;
       default:
-        System.out.println("\n\nValor invalido, digite novamente");
+        System.out.println("\n\nValor invalido, digite a opção novamente");
       }
     } while (opcode != 0);
   }
