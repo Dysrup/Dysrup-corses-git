@@ -24,7 +24,7 @@ public class Main {
 
   public static void main(String[]args) {
     try {
-	System.out.println("Iniciando programa");
+	System.out.println("Starting Program");
       // criacao do crud
       arqPessoas = new CRUD<>(Usuario.class.getConstructor(),
           pcvUsuario.class.getDeclaredConstructor(int.class, long.class), 
@@ -74,14 +74,14 @@ public class Main {
   // ---------------------Menus------------------------
   public static void menuPrincipal() {
     System.out.println("\n=============");
-    System.out.println("PERGUNTAS 1.0");
+    System.out.println("QUESTIONS 1.0");
     System.out.println("=============");
-    System.out.println("\nACESSO\n");
-    System.out.println("1) Acesso ao sistema");
-    System.out.println("2) Novo usuario (primeiro acesso)");
-    System.out.println("3) Esqueci a senha\n");
-    System.out.println("0) Sair\n");
-    System.out.print("Digite sua escolha:");
+    System.out.println("\nACCESS\n");
+    System.out.println("1) System Access");
+    System.out.println("2) New User (First Access)");
+    System.out.println("3) Forgot Password\n");
+    System.out.println("0) Exit\n");
+    System.out.print("Choose Number:");
   }
 
   public static void menuPerguntas(int notificacoes) {
